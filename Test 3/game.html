@@ -1,0 +1,51 @@
+<!-- Simple responsive game page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Game</title>
+    <style>
+        /* Add your custom styles for the game here */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 1.5em;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #28a745;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick="startGame()">Click Me</button>
+
+    <script>
+        let score = 0;
+
+        function startGame() {
+            alert("Game Started! Try to increase your score by clicking the button.");
+            score = 0;
+            updateScore();
+        }
+
+        function updateScore() {
+            alert("Your score: " + score);
+            score++;
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+/* Add your custom styles here */
+
+body {
+    padding-top: 56px; /* Adjust for the fixed navbar height */
+}
+
+.hero {
+    padding: 100px 0;
+    background-color: #f8f9fa; /* Light gray background color */
+}
+
+.about {
+    padding: 80px 0;
+    background-color: #e9ecef; /* Lighter gray background color */
+}
